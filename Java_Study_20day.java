@@ -4,23 +4,23 @@ class Car{
 
 	public void setCar(int n){
 		num = n;
-		System.out.println("Â÷·É¹øÈ£¸¦" + num + "À¸·Î ¹Ù²Ù¾ú½À´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ë²ˆí˜¸ë¥¼" + num + "ìœ¼ë¡œ ë°”ê¾¸ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 	public void setCar(double g){
 		gas = g;
-		System.out.println("¿¬·á ¾çÀ»" + gas + "À¸·Î ¹Ù²Ù¾ú½À´Ï´Ù.");
+		System.out.println("ì—°ë£Œ ì–‘ì„" + gas + "ìœ¼ë¡œ ë°”ê¾¸ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 	public void setCar(int n, double g){
 		num = n;
 		gas = g;
-		System.out.println("Â÷·É¹øÈ£¸¦" + num + "À¸·Î, ¿¬·á ¾çÀ»" + gas + "·Î ¹Ù²Ù¾ú½À´Ï´Ù");
+		System.out.println("ì°¨ëŸ‰ë²ˆí˜¸ë¥¼" + num + "ìœ¼ë¡œ, ì—°ë£Œ ì–‘ì„" + gas + "ë¡œ ë°”ê¾¸ì—ˆìŠµë‹ˆë‹¤");
 	}
 
 	void show(){
-		System.out.println("Â÷·É¹øÈ£´Â" + num + "ÀÔ´Ï´Ù.");
-		System.out.println("¿¬·á ¾çÀº" + gas + "ÀÔ´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ë²ˆí˜¸ëŠ”" + num + "ì…ë‹ˆë‹¤.");
+		System.out.println("ì—°ë£Œ ì–‘ì€" + gas + "ì…ë‹ˆë‹¤.");
 	}
 }
 
@@ -30,11 +30,11 @@ public class Sample{
 		car1.setCar(1234, 20.5);
 		car1.show();
 		
-		System.out.println("Â÷·® ¹øÈ£¸¸ º¯°æµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ ë²ˆí˜¸ë§Œ ë³€ê²½ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		car1.setCar(2345);
 		car1.show();
 
-		System.out.println("¿¬·á ¾ç¸¸ º¯°æµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì—°ë£Œ ì–‘ë§Œ ë³€ê²½ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		car1.setCar(30.5);
 		car1.show();
 		
