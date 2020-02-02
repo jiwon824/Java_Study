@@ -2,15 +2,15 @@ class Car{
 	private int num;
 	private double gas;
 
-	public Car(){ //¿©±â°¡ »ı¼ºÀÚ
+	public Car(){ //ì—¬ê¸°ê°€ ìƒì„±ì
 		num = 0;
 		gas = 0.0;
-		System.out.println("ÀÚµ¿Â÷°¡ ¸¸µé¾îÁ³½À´Ï´Ù.");
+		System.out.println("ìë™ì°¨ê°€ ë§Œë“¤ì–´ì¡ŒìŠµë‹ˆë‹¤.");
 	}
 
 	void show(){
-		System.out.println("Â÷·É¹øÈ£´Â" + num + "ÀÔ´Ï´Ù.");
-		System.out.println("¿¬·á ¾çÀº" + gas + "ÀÔ´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ë²ˆí˜¸ëŠ”" + num + "ì…ë‹ˆë‹¤.");
+		System.out.println("ì—°ë£Œ ì–‘ì€" + gas + "ì…ë‹ˆë‹¤.");
 	}
 }
 
